@@ -74,50 +74,19 @@ class employ_record
 
 main()
 {
-	int n=2,i;
-	employ_record Er[2];
-	for (i=0;i<1;i++)
+	int i;
+	employ_record Er[5];
+	for (i=0;i<5;i++)
 	{
 		Er[i].user();
 		cout <<"\n";
 	}
-	for (i=0;i<1;i++)
+	for (i=0;i<5;i++)
 	{
 		Er[i].output();
 		cout <<"\n";
 	}
 	return 0;
-	
-//	for (i=0;i<5;i++)
-//	{
-//		cout << "Enter Employ Name :"<<endl;
-//		cin >> emp_name;
-//		cout << "Enter Employ Id :"<<endl;
-//		cin >> emp_id;
-//		cout << "Enter Employ age :"<<endl;
-//		cin >> emp_age;
-//		cout << "Enter Employ role :"<<endl;
-//		cin >> emp_role;
-//		cout << "Enter Employ preferred City :"<<endl;
-//		cin >> emp_city;
-//		cout << "Enter Employ Experianced :"<<endl;
-//		cin >> emp_experianced;
-//		cout << "Enter Employ Company Name :"<<endl;
-//		cin >> emp_company_name;
-//		cout << "Enter Employ Salary :"<<endl;
-//		cin >> emp_salary;
-//		cin>>endl>>endl;
-//		
-//	}
-//	cout<<endl;
-//		cout << "Employ name = " << emp_name << endl;
-//		cout << "Employ Id = " << emp_id << endl;
-//		cout << "Employ Age = " << emp_age << endl;
-//		cout << "Employ Role = " << emp_role << endl;
-//		cout << "Employ City = " << emp_city << endl;
-//		cout << "Employ Experianced = " << emp_experianced << endl;
-//		cout << "Employ Company Name = " << emp_comapany_name << endl;
-//		cout << "Employ Salary = " << emp_salary << endl;		
 
 
 }

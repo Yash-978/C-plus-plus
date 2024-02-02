@@ -56,7 +56,7 @@ class Hotelrecord
 	
 };
 int Hotelrecord::h_established_year=2000;
-string Hotelrecord :: h_name="Taj Hotel";
+string Hotelrecord :: h_name="PadmaVati Bhojnalay";
 main()
 {
 	Hotelrecord H1[5];

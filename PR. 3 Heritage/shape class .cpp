@@ -1,45 +1,44 @@
 #include<iostream>
 using namespace std;
-class Number 
+class Shape
+{
+ protected :
+  float width,height;
+ public :
+  Shape()
+  {
+   cout<<"Enter Width : ";
+   cin>>width;
+   cout<<"Enter Height : ";
+   cin>>height;
+  } 
+};
+class Triangle : public Shape
+{
+ public:
+  void area()
+  {
+   cout<<"Area of Triangle : "<<(width*height)/2<<endl<<endl<<endl;
+  }
+};
+class Rectangle : public Shape
+{
+ public:
+  void area()
+  {
+   cout<<"Area of Rectangle : "<<width*height;
+  }
+};
+
+
+
+
+main()
 { 
-	protected :
+ Triangle t1;
+ t1.area();
 	
-
-	void set()
-	{
-		int n;
-		cout << "Enter the number :";
-		cin >> n;
-	}
-
-	
-}; 
-class Square : public Number 
-{
-	public :
-	void squ()
-	{
-		int sq ;
-		sq = sq*sq;
-		cout << "The Square of Number : " << sq << endl;
-	}
-};
-
-class Cube : public Number 
-{
-	public :
-	void cube()
-	{
-		int cu ;
-		cu = cu*cu*cu;
-		cout << "The Cube of Number : " << cu << endl;
-	}
-};
-main ()
-{
-	Number n1;
- 	Square s1;
-	Cube c1;
-	n1
+ Rectangle r1;
+ r1.area(); 
 }
 
